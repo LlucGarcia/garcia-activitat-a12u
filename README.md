@@ -33,15 +33,15 @@ Els passos següents et guiaran a afegir una llicència al teu repositori de Git
 
    Obre Visual Studio Code i la seva terminal integrada. Clona el repositori que acabes de crear amb el següent comandament:
 
-   ```bash
+
    git clone https://github.com/tu_usuario/<PrimerCognomAlumne>-activitat-a12u.git
    cd <PrimerCognomAlumne>-activitat-a12u
-   ```
+
 
 ### 3. **Crea el archivo LICENSE.md dentro del repositorio**
 
     Crea el archvio "LICENSE.md abrelo y copia el siguiente texto:
-    ```bash
+
     MIT License
 
     Copyright (c) [año] [El teu nom]
@@ -51,21 +51,16 @@ Els passos següents et guiaran a afegir una llicència al teu repositori de Git
     El missatge de copyright i aquest avís de permís han d'incloure's en totes les còpies o parts substancials del Software.
 
     EL SOFTWARE ES PROPORCIONA "TAL COM ÉS", SENSE GARANTIA DE CAP TIPUS, EXPRESA O IMPLÍCITA, INCLOENT PERÒ NO LIMITANT-SE A LES GARANTÍES DE COMERCIALITZACIÓ, NO INFRACCIÓ I ADEQUACIÓ PER A UN PROPÒSIT PARTICULAR. EN NINGÚN CAS, ELS AUTORS O ELS TITULARS DEL COPYRIGHT SERAN RESPONSABLES PER QUALSEVOL RECLAMACIÓ, DANY O ALTRA RESPONSABILITAT, SIGUI EN UNA ACCIÓ DE CONTRACTE, AGRAVIÓ O D'ALTRA MANERA, QUE SURGI DE O EN CONEXIÓ AMB EL SOFTWARE O L'USUARI O ALTRA ACCIÓ EN EL SOFTWARE.
-    ```
 
 ### 4. **Guardar i afegir el fitxer LICENSE al repositori**
 
     Un cop afegit el contingut de la llicència, guarda el fitxer i torna a la terminal de Visual Studio Code. Ara, has de preparar el fitxer per a ser enviat a GitHub:
 
-    ```bash
     git add LICENSE
     git commit -m "Afegit fitxer LICENSE amb llicència MIT"
-    ```
 
 ### 6. **Pujar els canvis al repositori de GitHub**
 
     Després de fer el commit, has de pujar els canvis al teu repositori remot. Utilitza el següent comandament per enviar els canvis:
     
-    ```bash
     git push origin main
-    ```
